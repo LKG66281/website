@@ -1,0 +1,33 @@
+# Ignore dependencies
+node_modules/
+package-lock.json
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Java
+*.class
+*.jar
